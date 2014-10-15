@@ -1,0 +1,38 @@
+{
+  "name": "repost",
+  "version": "0.0.1",
+  "description": "Repost content between different internet services",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha -R mocha-unfunk-reporter tests/",
+    "posttest": "jshint ./lib ./tests index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Magomogo/repost"
+  },
+  "keywords": [
+    "post",
+    "social",
+    "twitter",
+    "google plus"
+  ],
+  "author": "Maxim Gnatenko <mgnatenko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Magomogo/repost/issues"
+  },
+  "homepage": "https://github.com/Magomogo/repost",
+  "dependencies": {
+    "request": "^2.45.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.5",
+    "jshint": "^2.5.6",
+    "mocha-unfunk-reporter": "^0.4.0"
+  }
+}

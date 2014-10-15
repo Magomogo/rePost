@@ -1,0 +1,596 @@
+{
+ "kind": "plus#activityFeed",
+ "etag": "\"Vea_b94Y77GDGgRK7gFNPnolKQw/eVLt6WkmHt9FO9Ef_0tGUgaFk14\"",
+ "nextPageToken": "Cg0Qurztu9yowQIgACgBEhQIABDQ8_LOxajBAhjojo285pbBAhgC",
+ "title": "Google+ List of Activities for Collection PUBLIC",
+ "updated": "2014-10-13T02:06:47.106Z",
+ "items": [
+  {
+   "kind": "plus#activity",
+   "etag": "\"Vea_b94Y77GDGgRK7gFNPnolKQw/kzBTs7YNotNOTbQJrAq3Suv2C3E\"",
+   "title": "Как же жить-то хорошо и весело!",
+   "published": "2014-10-13T02:06:47.106Z",
+   "updated": "2014-10-13T02:06:47.106Z",
+   "id": "z13wvjarrqffhpq2z234zdaonov2xtfxl04",
+   "url": "https://plus.google.com/113769456294897662939/posts/H1LrWUdyafS",
+   "actor": {
+    "id": "113769456294897662939",
+    "displayName": "Maxim Gnatenko",
+    "url": "https://plus.google.com/113769456294897662939",
+    "image": {
+     "url": "https://lh5.googleusercontent.com/-pWXO-_P2ebc/AAAAAAAAAAI/AAAAAAAAMu8/TBLJ1Dmqhaw/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "Как же жить-то хорошо и весело!\ufeff",
+    "url": "https://plus.google.com/113769456294897662939/posts/H1LrWUdyafS",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13wvjarrqffhpq2z234zdaonov2xtfxl04/comments"
+    },
+    "plusoners": {
+     "totalItems": 1,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13wvjarrqffhpq2z234zdaonov2xtfxl04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13wvjarrqffhpq2z234zdaonov2xtfxl04/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "video",
+      "displayName": "РедХотЧилиПерцы или жена подарила регистратор",
+      "content": "demin.uv9.tv skype - magazinhimii EnviroTabs",
+      "url": "http://www.youtube.com/watch?v=szOhGOHnTRE",
+      "image": {
+       "url": "https://lh5.googleusercontent.com/proxy/rfAl5kbad0pWBo9aQl-g3HSJ0MlRVcc-kP8ZFJsHZTQXM7sn5SGWIcJy_WCTXoa3MlbMk4mm2la-5fKnAnfQ=w506-h284-n",
+       "type": "image/jpeg",
+       "height": 284,
+       "width": 506
+      },
+      "embed": {
+       "url": "https://www.youtube.com/embed/szOhGOHnTRE",
+       "type": "application/x-shockwave-flash"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Youtube"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"Vea_b94Y77GDGgRK7gFNPnolKQw/Ky-oowHJpZIrDCfRL-iHMfwJbSE\"",
+   "title": "Видео с неожиданным развитием. Только я с грустью подумал про разруху, гляда на паркующиеся в грязи ...",
+   "published": "2014-10-13T02:00:58.875Z",
+   "updated": "2014-10-13T02:00:58.875Z",
+   "id": "z12jytfgpmfhzna11234zdaonov2xtfxl04",
+   "url": "https://plus.google.com/113769456294897662939/posts/6Z2sxiMKPev",
+   "actor": {
+    "id": "113769456294897662939",
+    "displayName": "Maxim Gnatenko",
+    "url": "https://plus.google.com/113769456294897662939",
+    "image": {
+     "url": "https://lh5.googleusercontent.com/-pWXO-_P2ebc/AAAAAAAAAAI/AAAAAAAAMu8/TBLJ1Dmqhaw/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "Видео с неожиданным развитием. Только я с грустью подумал про разруху, гляда на паркующиеся в грязи машины, как появилась новая дорога с тротуарчиками! \u003cbr /\u003eА на факультатив задание - сколько дней прожила новая разметка?\ufeff",
+    "url": "https://plus.google.com/113769456294897662939/posts/6Z2sxiMKPev",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12jytfgpmfhzna11234zdaonov2xtfxl04/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12jytfgpmfhzna11234zdaonov2xtfxl04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12jytfgpmfhzna11234zdaonov2xtfxl04/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "video",
+      "displayName": "Everyday/Каждый день за окном (14.10.2012-03.06.2014)",
+      "content": "Омск (Амур) / Omsk http://vk.com/id16525863",
+      "url": "http://www.youtube.com/attribution_link?a=Q46cRtzLLZk&u=/watch?v%3Dghf6rv9ZqUk%26feature%3Dshare",
+      "image": {
+       "url": "https://lh3.googleusercontent.com/proxy/SSL6sGC2KDcwvfVYlMT6UyxltB5hCSfmn36p4fAjW5d0XaKvOF4JCVtYGiGMlGDZnndSQRLAT3-Wbn67mvxLsrcDAg=w506-h284-n",
+       "type": "image/jpeg",
+       "height": 284,
+       "width": 506
+      },
+      "embed": {
+       "url": "https://www.youtube.com/embed/ghf6rv9ZqUk",
+       "type": "application/x-shockwave-flash"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Google+"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"Vea_b94Y77GDGgRK7gFNPnolKQw/a4vODY00w084CakckSoUOoQy3t4\"",
+   "title": "А вот человек демонстрирует невероятное доверие окружающей действительности.",
+   "published": "2014-10-13T01:44:07.220Z",
+   "updated": "2014-10-13T01:44:07.220Z",
+   "id": "z12ktpjylparu3aew234zdaonov2xtfxl04",
+   "url": "https://plus.google.com/113769456294897662939/posts/GRRvmxhRbYt",
+   "actor": {
+    "id": "113769456294897662939",
+    "displayName": "Maxim Gnatenko",
+    "url": "https://plus.google.com/113769456294897662939",
+    "image": {
+     "url": "https://lh5.googleusercontent.com/-pWXO-_P2ebc/AAAAAAAAAAI/AAAAAAAAMu8/TBLJ1Dmqhaw/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "А вот человек демонстрирует невероятное доверие окружающей действительности.\ufeff",
+    "url": "https://plus.google.com/113769456294897662939/posts/GRRvmxhRbYt",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12ktpjylparu3aew234zdaonov2xtfxl04/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12ktpjylparu3aew234zdaonov2xtfxl04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12ktpjylparu3aew234zdaonov2xtfxl04/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "video",
+      "displayName": "Человек - ракета",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=Mr5rOGo8pYE&feature=autoshare",
+      "image": {
+       "url": "https://lh3.googleusercontent.com/proxy/Jgrc7rFIpCgMNeRSgl7OMrczDYtzGbUu24vT9dessX9eVGlYpLvgjYm-zF_tw0UOI5f9dy-vTwD9Xp50KEG6=w506-h379-n",
+       "type": "image/jpeg",
+       "height": 379,
+       "width": 506
+      },
+      "embed": {
+       "url": "https://www.youtube.com/v/Mr5rOGo8pYE?version=3&autohide=1&autoplay=1&feature=autoshare-uc",
+       "type": "application/x-shockwave-flash"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": ""
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"Vea_b94Y77GDGgRK7gFNPnolKQw/QfGtNRv6NWM8czTeVWppWxabOYs\"",
+   "title": "Старая, но забавная игра - ходишь по округе с телефоном и ловишь милые привидения. Дополненная реальность...",
+   "published": "2014-10-12T11:42:10.106Z",
+   "updated": "2014-10-12T11:42:10.106Z",
+   "id": "z13azbig4oj5v10l5234zdaonov2xtfxl04",
+   "url": "https://plus.google.com/113769456294897662939/posts/7C8MDh6QYxL",
+   "actor": {
+    "id": "113769456294897662939",
+    "displayName": "Maxim Gnatenko",
+    "url": "https://plus.google.com/113769456294897662939",
+    "image": {
+     "url": "https://lh5.googleusercontent.com/-pWXO-_P2ebc/AAAAAAAAAAI/AAAAAAAAMu8/TBLJ1Dmqhaw/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "Старая, но забавная игра - ходишь по округе с телефоном и ловишь милые привидения. Дополненная реальность, GPS, компас, всё, как вы любите. Идея всё та же - заставить тебя ленивого двигаться, пока не помер от гиподинамии.\ufeff",
+    "url": "https://plus.google.com/113769456294897662939/posts/7C8MDh6QYxL",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13azbig4oj5v10l5234zdaonov2xtfxl04/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13azbig4oj5v10l5234zdaonov2xtfxl04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13azbig4oj5v10l5234zdaonov2xtfxl04/people/resharers"
+    }
+   },
+   "provider": {
+    "title": "Google+"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"Vea_b94Y77GDGgRK7gFNPnolKQw/nxfrWVnW16jgHGMtSzKi8iXFA90\"",
+   "title": "#яндекс первым отметил открывшийся в Новосибирске Бугринский мост на своих картах. Конечно не считая...",
+   "published": "2014-10-09T01:47:46.357Z",
+   "updated": "2014-10-09T01:47:46.357Z",
+   "id": "z12yvbpxhy3munkkm234zdaonov2xtfxl04",
+   "url": "https://plus.google.com/113769456294897662939/posts/46efw4nK65a",
+   "actor": {
+    "id": "113769456294897662939",
+    "displayName": "Maxim Gnatenko",
+    "url": "https://plus.google.com/113769456294897662939",
+    "image": {
+     "url": "https://lh5.googleusercontent.com/-pWXO-_P2ebc/AAAAAAAAAAI/AAAAAAAAMu8/TBLJ1Dmqhaw/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "\u003ca rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23%D1%8F%D0%BD%D0%B4%D0%B5%D0%BA%D1%81\"\u003e#яндекс\u003c/a\u003e первым отметил открывшийся в Новосибирске Бугринский мост на своих картах. Конечно не считая \u003ca rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23osm\"\u003e#osm\u003c/a\u003e, где всегда самая актуальная информация.\ufeff",
+    "url": "https://plus.google.com/113769456294897662939/posts/46efw4nK65a",
+    "replies": {
+     "totalItems": 1,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12yvbpxhy3munkkm234zdaonov2xtfxl04/comments"
+    },
+    "plusoners": {
+     "totalItems": 1,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12yvbpxhy3munkkm234zdaonov2xtfxl04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12yvbpxhy3munkkm234zdaonov2xtfxl04/people/resharers"
+    }
+   },
+   "provider": {
+    "title": "Google+"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"Vea_b94Y77GDGgRK7gFNPnolKQw/WhQiycWRcWgLB2E3GWerD_PumrM\"",
+   "title": "\u003e Рабочие - очень созерцательные люди. Один копает, пятеро смотрят. http://eprst2000.livejournal.com...",
+   "published": "2014-10-07T04:24:18.209Z",
+   "updated": "2014-10-07T04:24:18.209Z",
+   "id": "z13tzn3bcru4fvsbm04cgnx4umingfr5jq40k",
+   "url": "https://plus.google.com/113769456294897662939/posts/hc1tGQ9stSn",
+   "actor": {
+    "id": "113769456294897662939",
+    "displayName": "Maxim Gnatenko",
+    "url": "https://plus.google.com/113769456294897662939",
+    "image": {
+     "url": "https://lh5.googleusercontent.com/-pWXO-_P2ebc/AAAAAAAAAAI/AAAAAAAAMu8/TBLJ1Dmqhaw/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "&gt; Рабочие - очень созерцательные люди. Один копает, пятеро смотрят. \u003ca href=\"http://eprst2000.livejournal.com/168930.html\"\u003ehttp://eprst2000.livejournal.com/168930.html\u003c/a\u003e\ufeff",
+    "url": "https://plus.google.com/113769456294897662939/posts/hc1tGQ9stSn",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13tzn3bcru4fvsbm04cgnx4umingfr5jq40k/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13tzn3bcru4fvsbm04cgnx4umingfr5jq40k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13tzn3bcru4fvsbm04cgnx4umingfr5jq40k/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "(no title)",
+      "content": "Степан - фанат строительной техники. Как только слышит экскаватор, мы сразу бежим бегом смотреть. Если повезло и экскаватор накладывает землю в самосвал - это…",
+      "url": "http://eprst2000.livejournal.com/168930.html"
+     }
+    ]
+   },
+   "provider": {
+    "title": "Google+"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"Vea_b94Y77GDGgRK7gFNPnolKQw/3XIhQrL8I9Ml8t3Yq6xMufvOo_c\"",
+   "title": "У нас теперь вот какой вид появился!\n\nhttp://www.skyscrapercity.com/showpost.php?p=117971638&postcount...",
+   "published": "2014-10-07T03:25:53.565Z",
+   "updated": "2014-10-07T03:25:53.565Z",
+   "id": "z13jiprpsky3whdy404cgnx4umingfr5jq40k",
+   "url": "https://plus.google.com/113769456294897662939/posts/ZqSgkX48MdX",
+   "actor": {
+    "id": "113769456294897662939",
+    "displayName": "Maxim Gnatenko",
+    "url": "https://plus.google.com/113769456294897662939",
+    "image": {
+     "url": "https://lh5.googleusercontent.com/-pWXO-_P2ebc/AAAAAAAAAAI/AAAAAAAAMu8/TBLJ1Dmqhaw/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "У нас теперь вот какой вид появился!\u003cbr /\u003e\u003cbr /\u003e\u003ca href=\"http://www.skyscrapercity.com/showpost.php?p=117971638&amp;postcount=5384\"\u003ehttp://www.skyscrapercity.com/showpost.php?p=117971638&amp;postcount=5384\u003c/a\u003e \ufeff",
+    "url": "https://plus.google.com/113769456294897662939/posts/ZqSgkX48MdX",
+    "replies": {
+     "totalItems": 1,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13jiprpsky3whdy404cgnx4umingfr5jq40k/comments"
+    },
+    "plusoners": {
+     "totalItems": 1,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13jiprpsky3whdy404cgnx4umingfr5jq40k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13jiprpsky3whdy404cgnx4umingfr5jq40k/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "SkyscraperCity - View Single Post -  Бугринский (Третий, Оловозаводской) мост",
+      "content": "News, photos and discussions on skyscrapers, skylines, cities, architecture and urbanity",
+      "url": "http://www.skyscrapercity.com/showpost.php?p=117971638&postcount=5384",
+      "image": {
+       "url": "https://lh3.googleusercontent.com/proxy/kEdr4mlQ4v3poRrjFDlF9yuaOeVRUn6JoUFhBTChPbtSvrF3CD2K6g3bwteqWIhsX1SUciS8VRCTV8Kjj9JIsQKZ6KZeWLHp5UFX-UgZ6-WiAiDJha4b4A=w506-h303-p",
+       "type": "image/jpeg",
+       "height": 303,
+       "width": 506
+      },
+      "fullImage": {
+       "url": "http://img-fotki.yandex.ru/get/4809/36710540.ce/0_f464f_ed4bf56_orig.jpg",
+       "type": "image/jpeg"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Google+"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"Vea_b94Y77GDGgRK7gFNPnolKQw/X-U3Xlb6dse9IJ75ZSN9dn5WDT0\"",
+   "title": "Я познал секрет популярности и теперь понимаю о чем будет мой инстаграм! Буду въезжать в топ на своем...",
+   "published": "2014-10-07T01:46:29.183Z",
+   "updated": "2014-10-07T01:46:29.183Z",
+   "id": "z13zin2zgtqwxjqqr04cgnx4umingfr5jq40k",
+   "url": "https://plus.google.com/113769456294897662939/posts/d5eFgFccw25",
+   "actor": {
+    "id": "113769456294897662939",
+    "displayName": "Maxim Gnatenko",
+    "url": "https://plus.google.com/113769456294897662939",
+    "image": {
+     "url": "https://lh5.googleusercontent.com/-pWXO-_P2ebc/AAAAAAAAAAI/AAAAAAAAMu8/TBLJ1Dmqhaw/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "Я познал секрет популярности и теперь понимаю о чем будет мой инстаграм! Буду въезжать в топ на своем коте!  \u003ca rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23%D0%BA%D0%BE%D1%82%D1%8B\"\u003e#коты\u003c/a\u003e  \ufeff",
+    "url": "https://plus.google.com/113769456294897662939/posts/d5eFgFccw25",
+    "replies": {
+     "totalItems": 4,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13zin2zgtqwxjqqr04cgnx4umingfr5jq40k/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13zin2zgtqwxjqqr04cgnx4umingfr5jq40k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z13zin2zgtqwxjqqr04cgnx4umingfr5jq40k/people/resharers"
+    }
+   },
+   "provider": {
+    "title": "Google+"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"Vea_b94Y77GDGgRK7gFNPnolKQw/ece41jkAatLiYp3pKOapwva0Y8A\"",
+   "title": "It bends too! ",
+   "published": "2014-10-06T06:57:01.548Z",
+   "updated": "2014-10-06T06:57:01.548Z",
+   "id": "z12nuxfpxrndfdesc234zdaonov2xtfxl04",
+   "url": "https://plus.google.com/113769456294897662939/posts/2PuDJGKRA78",
+   "actor": {
+    "id": "113769456294897662939",
+    "displayName": "Maxim Gnatenko",
+    "url": "https://plus.google.com/113769456294897662939",
+    "image": {
+     "url": "https://lh5.googleusercontent.com/-pWXO-_P2ebc/AAAAAAAAAAI/AAAAAAAAMu8/TBLJ1Dmqhaw/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "It bends too! \ufeff",
+    "url": "https://plus.google.com/113769456294897662939/posts/2PuDJGKRA78",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12nuxfpxrndfdesc234zdaonov2xtfxl04/comments"
+    },
+    "plusoners": {
+     "totalItems": 3,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12nuxfpxrndfdesc234zdaonov2xtfxl04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z12nuxfpxrndfdesc234zdaonov2xtfxl04/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "photo",
+      "displayName": "It bends too! ",
+      "id": "113769456294897662939.6066978919712748546",
+      "content": "Фотография 06.10.14 в 13.54.jpg",
+      "url": "https://plus.google.com/photos/113769456294897662939/albums/6066978915597680817/6066978919712748546",
+      "image": {
+       "url": "https://lh3.googleusercontent.com/-U47uAKfzw-o/VDI9LulC9AI/AAAAAAAArWE/MA5aOwSyeD0/w506-h750/%25D0%25A4%25D0%25BE%25D1%2582%25D0%25BE%25D0%25B3%25D1%2580%25D0%25B0%25D1%2584%25D0%25B8%25D1%258F%2B06.10.14%2B%25D0%25B2%2B13.54.jpg",
+       "type": "image/jpeg"
+      },
+      "fullImage": {
+       "url": "https://lh3.googleusercontent.com/-U47uAKfzw-o/VDI9LulC9AI/AAAAAAAArWE/MA5aOwSyeD0/w1080-h720/%25D0%25A4%25D0%25BE%25D1%2582%25D0%25BE%25D0%25B3%25D1%2580%25D0%25B0%25D1%2584%25D0%25B8%25D1%258F%2B06.10.14%2B%25D0%25B2%2B13.54.jpg",
+       "type": "image/jpeg",
+       "height": 720,
+       "width": 1080
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Google+"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "plus#activity",
+   "etag": "\"Vea_b94Y77GDGgRK7gFNPnolKQw/U-vL3y0GhypVborQR_SvNLFMxcc\"",
+   "title": "",
+   "published": "2014-10-06T00:45:50.769Z",
+   "updated": "2014-10-06T00:45:50.769Z",
+   "id": "z133f354qkqmelwbw04cgnx4umingfr5jq40k",
+   "url": "https://plus.google.com/113769456294897662939/posts/jJEEP5JYTCy",
+   "actor": {
+    "id": "113769456294897662939",
+    "displayName": "Maxim Gnatenko",
+    "url": "https://plus.google.com/113769456294897662939",
+    "image": {
+     "url": "https://lh5.googleusercontent.com/-pWXO-_P2ebc/AAAAAAAAAAI/AAAAAAAAMu8/TBLJ1Dmqhaw/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": "",
+    "url": "https://plus.google.com/113769456294897662939/posts/jJEEP5JYTCy",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z133f354qkqmelwbw04cgnx4umingfr5jq40k/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z133f354qkqmelwbw04cgnx4umingfr5jq40k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://www.googleapis.com/plus/v1/activities/z133f354qkqmelwbw04cgnx4umingfr5jq40k/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "Тренер #freeletics порадовал расписанием на новую неделю",
+      "content": "Прошлая неделя тренировок показалась мне не слишком тяжелой, но духу сказать, что это было слишком просто, при переходе на новую неделю, мне не хватило. Ничего, тренер сделал это за меня. И ждут меня адские дни :)",
+      "url": "http://maxim.mydays.ru/2014/10/freeletics.html",
+      "image": {
+       "url": "https://lh5.googleusercontent.com/proxy/Z-DLFKJBm4cbnJHtUd2K_aIrMnv2juysvnPUpIMt98p6F7xRntIvISs4UyYrnaHinirFcFbbAbFIxtS2xnULG05UPB6Qbh2IdUbrrFhOrmb5GzWbHeoNSpIk1pT6hT8AaWJyivSQC0EH2O60GCD0Eccfm_FgFxCWOpM4oKBD-sOx6TfrjHyE1vrMpD25JlLIGuxcimXVj3VxuNA5xwedxiOL4hmzAr-t1Sk4eBpgeM8SQuMSSNwksbFFkULGOypwFchpElesx9HTw4zey7Qv7A=w506-h303-p",
+       "type": "image/jpeg",
+       "height": 303,
+       "width": 506
+      },
+      "fullImage": {
+       "url": "http://4.bp.blogspot.com/-N95fLBHvD4A/VDHl9Om6nJI/AAAAAAAArVs/Q_pfz7aWwQI/s1600/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%2B%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%2B2014-10-06%2B%D0%B2%2B7.39.47.png",
+       "type": "image/jpeg"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Google+"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  }
+ ]
+}

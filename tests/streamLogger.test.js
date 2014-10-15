@@ -3,6 +3,7 @@ describe('streamLogger', function () {
 
     var assert = require('assert'),
         logger = require(__dirname + '/../lib/streamLogger.js'),
+        testStreams = require(__dirname + '/../lib/test/streams.js'),
 
         doc = function (timestamp, title) {
             return {
@@ -11,27 +12,21 @@ describe('streamLogger', function () {
             };
         },
 
-        aConsumer = function (writeCallback, opts) {
-            var stream = require('stream').Writable(opts);
-            stream._write = writeCallback;
-            return stream;
-        },
-
         documentsStream = function () {
-            var stream = require('stream').Readable({objectMode: true});
-
-            stream._read = function () {
-                this.push(doc(new Date('2014-01-01'), 'Happy new year'));
-                this.push(doc(new Date('2014-03-08'), 'Happy woman\'s day'));
-                this.push(doc(new Date('2014-05-09'), 'Happy victory day'));
-                this.push(null);
-            };
-            return stream;
+            return testStreams.readable(
+                function () {
+                    this.push(doc(new Date('2014-01-01'), 'Happy new year'));
+                    this.push(doc(new Date('2014-03-08'), 'Happy woman\'s day'));
+                    this.push(doc(new Date('2014-05-09'), 'Happy victory day'));
+                    this.push(null);
+                },
+                {objectMode: true}
+            );
         };
 
     it('passes through all incoming documents', function (done) {
         var documentsPassedThrough = 0,
-            someConsumer = aConsumer(
+            someConsumer = testStreams.writable(
                 function (doc, encoding, callback) {
                     documentsPassedThrough = documentsPassedThrough + 1;
                     callback();
@@ -45,13 +40,13 @@ describe('streamLogger', function () {
         });
 
         documentsStream()
-            .pipe(logger(aConsumer(function () {})))
+            .pipe(logger(testStreams.devNull()))
             .pipe(someConsumer);
     });
 
     it('writes text representation of a rePost document', function (done) {
         var log = '',
-            logDestinationStream = aConsumer(function (chunk, encoding, callback) {
+            logDestinationStream = testStreams.writable(function (chunk, encoding, callback) {
                 log += chunk;
                 callback();
             });

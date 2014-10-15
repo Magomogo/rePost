@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "mocha -R mocha-unfunk-reporter tests/",
+    "test": "mocha -R mocha-unfunk-reporter tests/*",
     "posttest": "jshint ./lib ./tests index.js"
   },
   "repository": {
@@ -28,11 +28,13 @@
   "homepage": "https://github.com/Magomogo/repost",
   "dependencies": {
     "request": "^2.45.0",
-    "through2": "^0.6.3"
+    "through2": "^0.6.3",
+    "html-to-text": "^0.1.0"
   },
   "devDependencies": {
     "mocha": "^1.21.5",
     "jshint": "^2.5.6",
-    "mocha-unfunk-reporter": "^0.4.0"
+    "mocha-unfunk-reporter": "^0.4.0",
+    "sinon": "^1.10.3"
   }
 }

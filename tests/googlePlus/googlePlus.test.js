@@ -25,6 +25,12 @@ describe('GooglePlus', function () {
                 return request;
             };
 
+        it('does request only on demand', function () {
+            var request = sinon.spy();
+            sinon.assert.notCalled(request);
+            readStream(request);
+        });
+
         it('requests last 10 public activities', function () {
             var request = sinon.spy();
 
@@ -101,6 +107,19 @@ describe('GooglePlus', function () {
 
             readStream(tenPublicActivitiesRequest(), new Date('2014-10-09T01:47:46.357Z'))
                 .pipe(consumer);
+
+        });
+
+        it('emits error event', function (done) {
+            var request = sinon.stub();
+            request.yields(null, {statusCode: 404}, null);
+
+            readStream(request)
+                .on('error', function (err) {
+                    assert(err);
+                    done();
+                })
+                .pipe(testStreams.devNull());
 
         });
     });

@@ -1,23 +1,28 @@
 (function () {
     'use strict';
 
-    var repost = require('repost'),
+    var fs = require('fs'),
+        repost = require('repost'),
 
-        lastestPostedDate = new Date(
+        latestPostedDate = new Date(
             fs.existsSync('/tmp/rePost_latestPostedDate.txt') ?
-                fs.readFileSync('/tmp/rePost_latestPostedDate.txt').toString() : '1970-01-01'
+                fs.readFileSync('/tmp/rePost_latestPostedDate.txt', {encoding: 'utf8'}) : '1970-01-01'
         );
 
-    repost.src.googlePlus(lastestPostedDate, {
+    repost.src.googlePlus({
             googleUserId: undefined,
             googleAPIKey: undefined
         })
+        .on('error', function (err) { console.error(err); })
+        .pipe(repost.filter.publishedAfter(latestPostedDate))
         .pipe(repost.logger(process.stdout))
         .pipe(repost.dest.twitter({
             twitterConsumerKey: undefined,
             twitterConsumerSecret: undefined,
             twitterAccessToken: undefined,
             twitterAccessTokenSecret: undefined
-        }));
+        }))
+        .on('error', function (err) { console.error(err); })
+        .pipe(repost.dest.publishedDate('/tmp/rePost_latestPostedDate.txt'));
 
 }());

@@ -13,8 +13,8 @@ describe('GooglePlus', function () {
         };
 
     describe('reader', function () {
-        var readStream = function (request, lastPostedDate) {
-                return new GooglePlus(request).readStream(lastPostedDate || new Date('1970-01-01'), {
+        var readStream = function (request) {
+                return new GooglePlus(request).readStream({
                     googleUserId: '{googleUserId}',
                     googleAPIKey: '{googleAPIKey}'
                 });
@@ -80,34 +80,6 @@ describe('GooglePlus', function () {
             consumer.on('finish', done);
 
             readStream(tenPublicActivitiesRequest()).pipe(consumer);
-        });
-
-        it('skips all posts that published before lastPostedDate', function (done) {
-            var streamed = [],
-                consumer = testStreams.writable(
-                    function (doc, enc, cb) {
-                        streamed.push(doc.published);
-                        cb();
-                    },
-                    {objectMode: true}
-                );
-
-            consumer.on('finish', function () {
-                assert.deepEqual(
-                    streamed,
-                    [
-                        new Date('2014-10-12T11:42:10.106Z'),
-                        new Date('2014-10-13T01:44:07.220Z'),
-                        new Date('2014-10-13T02:00:58.875Z'),
-                        new Date('2014-10-13T02:06:47.106Z')
-                    ]
-                );
-                done();
-            });
-
-            readStream(tenPublicActivitiesRequest(), new Date('2014-10-09T01:47:46.357Z'))
-                .pipe(consumer);
-
         });
 
         it('emits error event', function (done) {

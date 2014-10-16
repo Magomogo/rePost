@@ -29,7 +29,8 @@
   "dependencies": {
     "request": "^2.45.0",
     "through2": "^0.6.3",
-    "html-to-text": "^0.1.0"
+    "html-to-text": "^0.1.0",
+    "node-twitter": "https://github.com/Magomogo/node-twitter/tarball/master"
   },
   "devDependencies": {
     "mocha": "^1.21.5",

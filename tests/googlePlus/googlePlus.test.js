@@ -59,7 +59,7 @@ describe('GooglePlus', function () {
                 );
 
             consumer.on('finish', function () {
-                assert.equal(10, readCounter);
+                assert.equal(11, readCounter);
                 done();
             });
 

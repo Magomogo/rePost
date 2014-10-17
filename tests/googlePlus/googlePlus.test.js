@@ -13,8 +13,8 @@ describe('GooglePlus', function () {
         };
 
     describe('reader', function () {
-        var readStream = function (request) {
-                return new GooglePlus(request).readStream({
+        var readStream = function (request, errHandler) {
+                return new GooglePlus(request, errHandler).readStream({
                     googleUserId: '{googleUserId}',
                     googleAPIKey: '{googleAPIKey}'
                 });
@@ -82,12 +82,11 @@ describe('GooglePlus', function () {
             readStream(tenPublicActivitiesRequest()).pipe(consumer);
         });
 
-        it('emits error event', function (done) {
+        it('user errHandler to handle errors', function (done) {
             var request = sinon.stub();
             request.yields(null, {statusCode: 404}, null);
 
-            readStream(request)
-                .on('error', function (err) {
+            readStream(request, function (err) {
                     assert(err);
                     done();
                 })

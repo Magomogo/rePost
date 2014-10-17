@@ -7,16 +7,22 @@
         NodeTwitter = require('node-twitter'),
 
         GooglePlus = require('./lib/GooglePlus.js'),
-        Twitter = require('./lib/Twitter.js');
+        Twitter = require('./lib/Twitter.js'),
+
+        errorHandler = console.error;
 
     module.exports = {
 
+        defineErrorHandler: function (h) {
+            errorHandler = h;
+        },
+
         src: {
-            googlePlus: new GooglePlus(request).readStream
+            googlePlus: new GooglePlus(request, errorHandler).readStream
         },
 
         dest: {
-            twitter: new Twitter(NodeTwitter.RestClient).writeStream,
+            twitter: new Twitter(NodeTwitter.RestClient, errorHandler).writeStream,
             publishedDate: function (filePath) {
                 return through.obj(function (doc, encoding, callback) {
                     fs.writeFile(filePath, doc.published.toJSON(), callback);

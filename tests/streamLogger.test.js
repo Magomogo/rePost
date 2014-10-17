@@ -34,9 +34,9 @@ describe('streamLogger', function () {
 
         logDestinationStream.on('finish', function () {
             assert.equal(
-                '2014-01-01T10:11:03.000Z: Happy new year\n' +
-                '2014-03-08T11:22:33.000Z: Happy woman\'s day\n' +
-                '2014-05-09T15:32:43.000Z: Happy victory day\n',
+                'NOK 2014-01-01T10:11:03.000Z: Happy new year\n' +
+                'NOK 2014-03-08T11:22:33.000Z: Happy woman\'s day\n' +
+                'NOK 2014-05-09T15:32:43.000Z: Happy victory day\n',
                 log
             );
 

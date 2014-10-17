@@ -25,7 +25,9 @@
             twitter: new Twitter(NodeTwitter.RestClient, errorHandler).writeStream,
             publishedDate: function (filePath) {
                 return through.obj(function (doc, encoding, callback) {
-                    fs.writeFile(filePath, doc.published.toJSON(), callback);
+                    if (doc.rePublished) {
+                        fs.writeFile(filePath, doc.published.toJSON(), callback);
+                    }
                 });
             }
         },

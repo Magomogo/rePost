@@ -10,7 +10,7 @@ Ex: if (new post in Goole plus) then (publish it in Twitter)
 status
 ======
 
-Development started, not ready to use
+google plus | twitter works well
 
 examples
 ========

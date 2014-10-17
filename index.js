@@ -26,7 +26,7 @@
             publishedDate: function (filePath) {
                 return through.obj(function (doc, encoding, callback) {
                     if (doc.rePublished) {
-                        fs.writeFile(filePath, doc.published.toJSON(), callback);
+                        fs.writeFile(filePath, '"' + doc.published.toJSON() + '"', callback);
                     }
                 });
             }

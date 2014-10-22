@@ -1,6 +1,6 @@
 {
   "name": "repost",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Repost content between different internet services",
   "main": "index.js",
   "directories": {

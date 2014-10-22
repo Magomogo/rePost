@@ -4,7 +4,6 @@
     var request = require('request'),
         fs = require('fs'),
         through = require('through2'),
-        NodeTwitter = require('node-twitter'),
 
         GooglePlus = require('./lib/GooglePlus.js'),
         Twitter = require('./lib/Twitter.js'),
@@ -22,7 +21,7 @@
         },
 
         dest: {
-            twitter: new Twitter(NodeTwitter.RestClient, errorHandler).writeStream,
+            twitter: new Twitter(request, errorHandler).writeStream,
             publishedDate: function (filePath) {
                 return through.obj(function (doc, encoding, callback) {
                     if (doc.rePublished) {

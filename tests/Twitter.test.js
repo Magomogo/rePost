@@ -15,7 +15,6 @@ describe('Twitter', function () {
             };
         };
 
-
         it('passes rePost documents through', function (done) {
             var documentsPassedThrough = 0,
                 someConsumer = testStreams.writable(
@@ -48,6 +47,42 @@ describe('Twitter', function () {
 
             testStreams.rePostDocuments()
                 .pipe(new Twitter(successfulTwitterClient).writeStream({}))
+                .pipe(assertConsumer);
+        });
+
+        it('repeats without image when twitter responds with 403 error', function () {
+            var twitterClientApi = sinon.stub({
+                    statusesUpdateWithMedia: function () {},
+                    statusesUpdate: function () {}
+                }),
+                twitterClient = function () {
+                    return twitterClientApi;
+                },
+                assertConsumer = testStreams.writable(
+                    function (doc, encoding, callback) {
+
+                        sinon.assert.calledOnce(twitterClientApi.statusesUpdateWithMedia);
+                        sinon.assert.calledOnce(twitterClientApi.statusesUpdate);
+
+                        twitterClientApi.statusesUpdate.calledAfter(
+                            twitterClientApi.statusesUpdateWithMedia
+                        );
+
+                        callback();
+                    },
+                    {objectMode: true}
+                );
+
+            twitterClientApi.statusesUpdateWithMedia.yields({code: 403});
+            twitterClientApi.statusesUpdate.yields(null);
+
+            testStreams.readable(function () {
+                    this.push({
+                        image: 'some uri'
+                    });
+                    this.push(null);
+                }, {objectMode: true})
+                .pipe(new Twitter(twitterClient).writeStream({}))
                 .pipe(assertConsumer);
         });
     });
